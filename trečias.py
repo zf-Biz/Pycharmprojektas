@@ -9,3 +9,10 @@ for a in range(1, 101, 1):
         continue
     print(a)
 print('----------')
+
+for a in range(1, 101, 1):
+    if (a % 2 == 0):
+        continue
+    if a > 20:
+        break
+    print(a)
