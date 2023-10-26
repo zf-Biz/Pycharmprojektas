@@ -21,3 +21,7 @@ while True:
 
     if veiksmas == '1':
         ats = (f'{pirmas_sk} + {antras_sk} = {pirmas_sk + antras_sk}')
+    elif veiksmas == '2':
+        ats = (f'{pirmas_sk} - {antras_sk} = {pirmas_sk - antras_sk}')
+    elif veiksmas == '3':
+        ats = (f'{pirmas_sk} * {antras_sk} = {pirmas_sk * antras_sk}')
